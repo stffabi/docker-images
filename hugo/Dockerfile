@@ -8,6 +8,7 @@ RUN apk --no-cache add ca-certificates openssl git curl \
     && mv git-lfs-2.0.1/git-lfs /usr/bin/ \
     && rm -rf git-lfs-2.0.1 \
     && rm -rf git-lfs-linux-amd64-2.0.1.tar.gz
+    && git lfs install
 
 RUN apk --no-cache add py-pygments
 
