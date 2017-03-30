@@ -1,5 +1,5 @@
 FROM alpine:3.5
-MAINTAINER Fabrizio Steier <stffabi@users.noreply.github.com>
+MAINTAINER Fabrizio Steiner
 
 # USAGE
 # $ docker build -t sshfs-client .

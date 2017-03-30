@@ -1,5 +1,5 @@
 FROM alpine:3.5
-MAINTAINER Fabrizio Steier <stffabi@users.noreply.github.com>
+MAINTAINER Fabrizio Steiner
 
 # Set up certificates and our base tools.
 RUN apk --no-cache add ca-certificates openssl git curl \
