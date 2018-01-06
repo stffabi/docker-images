@@ -6,11 +6,11 @@ Docker image for a light SSHFS client (~14.5MB).
 
 ### Run
 
-    $ docker run -it --privileged=true --net=host -v /mnt/sshfs-1 -e USER=ssh_user -e PASSWORD=XY -e SERVER=192.168.0.9 -e REMOTE_FOLDER=movies sshfs-stffabi/client
+    $ docker run -it --privileged=true --net=host -v /mnt/sshfs-1 -e USER=ssh_user -e PASSWORD=XY -e SERVER=192.168.0.9 -e REMOTE_FOLDER=movies stffabi/sshfs-client
 
 or, detached:
 
-    $ docker run -itd --privileged=true --net=host -v /mnt/sshfs-1 -e USER=ssh_user -e PASSWORD=XY -e SERVER=192.168.0.9 -e REMOTE_FOLDER=movies sshfs-client
+    $ docker run -itd --privileged=true --net=host -v /mnt/sshfs-1 -e USER=ssh_user -e PASSWORD=XY -e SERVER=192.168.0.9 -e REMOTE_FOLDER=movies stffabi/sshfs-client
 
 ### Environment
 
