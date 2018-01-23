@@ -13,7 +13,7 @@ RUN apk --no-cache add \
 RUN apk --no-cache add py-pygments
 
 # Download and install hugo
-ENV HUGO_VERSION 0.32.2
+ENV HUGO_VERSION 0.34
 ENV HUGO_DOWNLOAD_FILE hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
 
 ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_DOWNLOAD_FILE} /tmp/hugo.tar.gz
